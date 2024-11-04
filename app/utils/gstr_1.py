@@ -35,6 +35,7 @@ def generate_basic_data(path_to_json):
         "cdnra",
         "doc_issue",
         "cdnura",
+        "nil",
     ]
     data = get_json_sales_data(path_to_json)
     for key in not_required_keys:
